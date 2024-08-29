@@ -21,7 +21,6 @@ public class TarefaController {
         this.tarefaService = tarefaService;
     }
 
-
     @Operation(summary = "retorna todas as tarefas",
             description = "Esse método recupera uma lista de tarefa.", method = "GET")
     @ApiResponses(value = {
